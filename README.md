@@ -1,12 +1,27 @@
 # xtreamteam
 
-### Project Name; Secure Food Distribution App
-### Vision; Allow non-profit orgations to leverage QR Technology for security distribuite of food during the pandemic. 
+### Project Name; Secure Food Distribution App\
+
+Far Vision: Create an app that will leverage QR Technology to enable NonProfits Vendors and Donors to securely distribute of food during the pandemic. 
+Near Vision: Create an app that will build a basic framework for this including
+    1. allowing beneficiaries to sign up and receive a QR Code
+    2. allowing donors to donate money to the organization
+    3. allowing the NGO to assign the money to each beneficiary
+
+### Team Members
+Prashant More: Product Owner/ Developer
+Alexander Giannini: Scrum Master/ Developer
+Juan Valladares: Developer
+Anup Shetye: Developer
+Manav Agarwal: Developer
+
+
+
 ### Stake Holders; 
   <ul>
-  <li>Non-Profit: </li>
+  <li>Non-Profit: Wants to help those in need</li>
   <li>Family in need: need to be able to receive funds and the food distribution.</li>
-  <li>Donors: they give the food</li>
+  <li>Donors: Wants to contribute to the NGO's humanitarian efforts </li>
   <li>Vendor</li>
   </ul>
   
