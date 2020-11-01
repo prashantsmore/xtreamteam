@@ -17,14 +17,14 @@ Juan Valladares: Developer <br>
 Anup Shetye: Developer <br>
 Manav Agarwal: Developer <br>
 
-
 ### Stake Holders:
-  <ul>
-  <li>Non-Profit: Wants to help those in need</li>
-  <li>Family in need: need to be able to receive funds and the food distribution.</li>
-  <li>Donors: Wants to contribute to the NGO's humanitarian efforts </li>
-  <li>Vendor</li>
-  </ul>
+  
+  - **Non-Profit**: This stakeholder is any organization who wants to help to distribute food in underdeveloped countries. The organization will raise funds in developed countries and coordinate non-profits in each Country to coordinate food distribution in the communities and use this application to orchestrate the process safely and transparently.
+
+  - **Family in need**: This stakeholder receives the benefits of this process. the Local non-profit will coordinate the food's distribuition and locate those families 
+  that require support. 
+  - **Donors**: This takeholder provide the funds to finance the process.  
+  - **Vendor**: Local vendors give the groceries to the families in exchange of the funds received from the non-profit organization.  
   
   ### Real Person: 
   
