@@ -23,7 +23,7 @@ We believe that the solution requires bringing the access directly to the local 
     - Allow the Non-Profit organization to assign the money to each beneficiary.
 
 ### Team Members<br>
-- **Prashant More**: Product Owner/ Developer 
+- **Prashant More**: Product Owner / Developer
 - **Alexander Giannini**: Scrum Master/ Developer
 - **Juan Valladares**: Developer
 - **Anup Shetye**: Developer
@@ -42,6 +42,17 @@ We believe that the solution requires bringing the access directly to the local 
   
 Alejandra, is a mother of two, 31 years old who lives in Tegucigalpa, the capital city of Honduras. She works as office cleaner. Her husband work in construction. During the pandemic, both lost their jobs and have had difficulties to feed their family. Honduras, an underdeveloped country doesn’t have the resources to feed the whole country. This has been in lockdown since March and citizens can only leave their home once every 10 days. Some essential workers can go out, but they can’t because offices are closed, and construction work has been stopped. She has been struggling to feed her family and provide the basic needs. Food is one of the major issues due to the lack of job, money and they have to rely on some government assistance,  when it is possible, or non-profit such as churches or organizations that distribute food from time to time. Sometimes, they have to violate the lockdown to go out and look for groceries, or try to gain some money with temp jobs.
 
+## Definition of Ready
+Title: Secure Food Distribution Application
+User Story Opening Sentence: Given ... When ... Then ...
+Additional Details :  listed in the stakeholder information
+Acceptance Criteria: THe application should meet all criteria including all business logic and testing requirments. These Include:
+    - App should allow beneficiaries to sign up and receive an ID in the system and use QR Code technology to identify themselves in the system. ESTIMATION: 63
+    - App should allow donors to donate money to the organization. ESTIMATION: 37
+    - App should allow the Non-Profit organization to assign the money to each beneficiary. ESTIMATION: 50
+    - App should be reasonable Secure ESTIMATION: 13
+    - Contact Page that can be used by any visitor ESTIMATION: 5
+
 ## Product Backlog
 We are using Jira to manage our backlog and it can be seen this address [Jira Backlog](https://xtremeteam3.atlassian.net/secure/RapidBoard.jspa?rapidView=1&projectKey=SFDA&view=planning&selectedIssue=SFDA-1&epics=visible&issueLimit=100)
 
@@ -50,9 +61,8 @@ We are using Jira to manage our backlog and it can be seen this address [Jira Ba
 For Product Backlog ordering, we decided to first implement the signup functionality, then the login functionaly, then the core functionality and then the security. We determined that this order will allow us to properly test the application due to technical constraints. Specifically, the creating the signup and login first will allow us to build the technical framework to power the rest of the application.
 <br>
 
-### Items with Estimation
-
-#### For Estimation, we used Planning Poker to execute whole-team relative sized estimation. 
+### Estimation
+#### For Estimation, we used 'Planning Poker' to execute whole-team relative sized estimation. Only developers participated. We met as a group and estimated Story Point's with the following numbers : 1, 2, 3, 5, 8, 13, 21, 34, 55, 89. We discussed each item and determined a general approach as a team. Our conclusions were all unanimous and are listed below.
 
 #### EPIC: Signup Capability
 1. Signup capability for NPO - ESTIMATION 21
@@ -65,9 +75,9 @@ For Product Backlog ordering, we decided to first implement the signup functiona
 #### EPIC: Core Functions
 7. Ability to retrieve QR Code For various roles ( stakeholders) - ESTIMATION: 21
 8. Unique QR Code should be assigned to Families - ESTIMATION: 13
-9. Donor should be able to donate money - ESTIMATION: 
-9. NPO shoule be able to distribute funds - ESTIMATION: 
-11. Contact Page/ Help form - ESTIMATION: 
+9. Donor should be able to donate money - ESTIMATION: 8
+9. NPO should be able to distribute funds - ESTIMATION: 21
+11. Contact Page/ Help form - ESTIMATION: 5
 #### EPIC: Security
-12. All transactions should be secure. - ESTIMATION: 
-S
+12. Implement basic web security practices - ESTIMATION: 13
+
