@@ -18,16 +18,16 @@ We believe that the solution requires bringing the access directly to the local 
 
 
 ### Near Vision Create an app that will build a basic framework for the far vision
-    <br>allow beneficiaries to sign up and receive a QR Code
-    <br>allow donors to donate money to the organization
-    <br>allow the NGO to assign the money to each beneficiary
+    - Allow beneficiaries to sign up and receive an ID in the system and use QR Code technology to identify themselves in the system.
+    - Allow donors to donate money to the organization. 
+    - Allow the Non-Profit organization to assign the money to each beneficiary.
 
 ### Team Members<br>
-Prashant More: Product Owner/ Developer <br>
-Alexander Giannini: Scrum Master/ Developer<br>
-Juan Valladares: Developer <br>
-Anup Shetye: Developer <br>
-Manav Agarwal: Developer <br>
+- **Prashant More**: Product Owner/ Developer 
+- **Alexander Giannini**: Scrum Master/ Developer
+- **Juan Valladares**: Developer
+- **Anup Shetye**: Developer
+- **Manav Agarwal**: Developer
 
 ### Stake Holders:
   
@@ -69,3 +69,4 @@ For Product Backlog ordering, we decided to first implement the signup functiona
 11. Contact Page/ Help form - ESTIMATION: 
 #### EPIC: Security
 12. All transactions should be secure. - ESTIMATION: 
+S
