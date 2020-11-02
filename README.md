@@ -1,6 +1,17 @@
-# xtreamteam
+# Xtream Team
 
 ### Project Name: Secure Food Distribution App
+
+### Team Members<br>
+- **Prashant More**: Product Owner / Developer
+- **Alexander Giannini**: Scrum Master/ Developer
+- **Juan Valladares**: Developer
+- **Anup Shetye**: Developer
+- **Manav Agarwal**: Developer
+- **Davie Wilkie**: Developer
+
+### Product Name: 
+The product is an open source using MIT licensed and it is called Supply Line Food.
 
 ### Far Vision<br>
 Create an app that will leverage Blockchain and QR-Code Technology to enable NonProfits Vendors and Donors to securely distribute of food during the pandemic. 
@@ -16,18 +27,10 @@ The solution addresses the biggest problem: Massive delivery of food/goods creat
 
 We believe that the solution requires bringing the access directly to the local families without any intermediary so they can buy the food they need. They have lost the source of income and therefore they can’t buy the right food according to their diet. We cannot give money because a big portion of the population will use the money for other purposes.  The best way to solve this problem would be to create a mechanism that guarantees they can get access to food, but can only be used for the intended purpose. We propose the creation of certificates for this purpose
 
-
 ### Near Vision Create an app that will build a basic framework for the far vision
     - Allow beneficiaries to sign up and receive an ID in the system and use QR Code technology to identify themselves in the system.
     - Allow donors to donate money to the organization. 
     - Allow the Non-Profit organization to assign the money to each beneficiary.
-
-### Team Members<br>
-- **Prashant More**: Product Owner / Developer
-- **Alexander Giannini**: Scrum Master/ Developer
-- **Juan Valladares**: Developer
-- **Anup Shetye**: Developer
-- **Manav Agarwal**: Developer
 
 ### Stake Holders:
   
@@ -48,6 +51,15 @@ The beneficiary is a stakeholder that will be using the app but, at the same tim
 
 The beneficiary will have an ID in the system, and this ID is used to identify the individual and make sure that the same person requesting help is the same person who will receive the goods at the store.
  
+ 
+## Product Backlog
+We are using Jira to manage our backlog and it can be seen this address [Jira Backlog](https://xtremeteam3.atlassian.net/secure/RapidBoard.jspa?rapidView=1&projectKey=SFDA&view=planning&selectedIssue=SFDA-1&epics=visible&issueLimit=100)
+
+### Ordering
+<br>
+For Product Backlog ordering, we decided to first implement the signup functionality, then the login functionaly, then the core functionality and then the security. We determined that this order will allow us to properly test the application due to technical constraints. Specifically, the creating the signup and login first will allow us to build the technical framework to power the rest of the application.
+<br>
+
 ## Definition of Ready
 Title: Secure Food Distribution Application
 User Story Opening Sentence: Given ... When ... Then ...
@@ -59,13 +71,6 @@ Acceptance Criteria: THe application should meet all criteria including all busi
     - App should be reasonable Secure ESTIMATION: 13
     - Contact Page that can be used by any visitor ESTIMATION: 5
 
-## Product Backlog
-We are using Jira to manage our backlog and it can be seen this address [Jira Backlog](https://xtremeteam3.atlassian.net/secure/RapidBoard.jspa?rapidView=1&projectKey=SFDA&view=planning&selectedIssue=SFDA-1&epics=visible&issueLimit=100)
-
-### Ordering
-<br>
-For Product Backlog ordering, we decided to first implement the signup functionality, then the login functionaly, then the core functionality and then the security. We determined that this order will allow us to properly test the application due to technical constraints. Specifically, the creating the signup and login first will allow us to build the technical framework to power the rest of the application.
-<br>
 
 ### Estimation
 #### For Estimation, we used 'Planning Poker' to execute whole-team relative sized estimation. Only developers participated. We met as a group and estimated Story Point's with the following numbers : 1, 2, 3, 5, 8, 13, 21, 34, 55, 89. We discussed each item and determined a general approach as a team. Our conclusions were all unanimous and are listed below.
