@@ -91,4 +91,88 @@ Acceptance Criteria: THe application should meet all criteria including all busi
 11. Contact Page/ Help form - ESTIMATION: 5
 #### EPIC: Security
 12. Implement basic web security practices - ESTIMATION: 13
+'
+
+
+# PRODUCT BACKLOG (REVISED)
+### Initial Environment Setup : ESTIMATION 21
+#### Story: As a developer I need to be able to work in an new cloud environment
+
+### Initial Datatabase Setup : ESTIMATION 13
+#### Story: As a developer I need a database that is connected to the environment.
+
+### Build Web Server : ESTIMATION 34
+#### Story: As a developer I need to be able to serve static pages via the web
+
+### Build Login and Registration Page : ESTIMATION 8
+#### Story: As a App User (Families, NPO, Donors), I need a page to register and login
+
+### Database Modeling and Configuration: ESTIMATION : 21
+#### Story: As a developer I need to be able to access and modify the database using the Web App
+
+### Create QR Code : ESTIMATION 21
+#### Story: As a Families, I need to create a unique QR Code to allow myself to be identified 
+
+### Access QR Code : ESTIMATION 21
+#### Story: As a App User (Families, NPO), I need to retrieve QR Code For various roles 
+
+### Donate Money : ESTIMATION  8
+#### Story: As a Donor I need to be able to Donate Money
+
+### Distribute Funds : ESTIMATION 21
+#### Story: As an NPO, I should be able to distribute funds
+
+### Contact Page : ESTIMATION 5
+#### Story: As a App User (Families, NPO, Donors), I need to be able to contact someone with questions 
+
+### Web Security : ESTIMATION 13
+#### Story: As a Developer, I need to be sure my Application is secure
+
+
+
+# Sprint Planning
+
+For our first Spring we forecast being able to complete 75 Story Points.
+Rational: While 75 points seems like a lot, we want to be sure to build a good foundation to build upon for the rest of the application. We are hopeful we will be able to complete everything especially considering Veterans Day is Wednesday and we may have a bit more time than normal. 
+
+## Sprint Backlog
+The Development Team (alone) chose this Spring Backlog after we refined some the items during Product Backlog Refinment.
+
+### 1 Initial Environment Setup : ESTIMATION 21
+#### Story: As a developer I need to be able to work in an new cloud environment
+
+### 2 Initial Datatabase Setup : ESTIMATION 13
+#### Story: As a developer I need a database that is connected to the environment.
+
+### 3 Build Web Server : ESTIMATION 34
+#### Story: As a developer I need to be able to serve static pages via the web
+
+### Build Login and Registration Page : ESTIMATION 8
+#### Story: As a App User (Families, NPO, Donors), I need a page to register and login
+
+## Tasks
+Manav/Alex Wednesday 6pm
+PBI #1 Set up AWS Instance w/ security settings
+PBI #1 Register SSH Key with Juan's GitHub
+PBI #1 Confirm instance has Access and can pull from the repo
+
+Anup/Prashant Wednesday 6pm
+PBI #2 Create Database or file to store information
+PBI #2 Allow app to store user names and other info
+
+PBI #3 Create a Spring Boot App with buil-in server
+PBI #3 Allow App to serve static files
+PBI #3 Build and run tests for confirm everything is working
+PBI #3 Delpoy app to server via gitHub
+
+Juan/Prashant/Anup/Manav/Alex Friday 6pm EST
+PBI #4 Build HTML with Bootstrap and a form that receives information
+PBI #4 Allow Users to create an user entry in the database/file
+PBI #4 Allow Users to Login according to the database/file
+PBI #4 Build and run tests for confirm everything is working
+
+Sprint Review - Sunday 6PM 
+
+
+
 
