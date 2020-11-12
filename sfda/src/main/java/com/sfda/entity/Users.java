@@ -28,8 +28,4 @@ public class Users {
     @Column
     @NotNull(message="{NotNull.User.email}")
     private String email;
-    
-    @Column
-    @NotNull(message="{NotNull.User.type}")
-    private String type;
 }
