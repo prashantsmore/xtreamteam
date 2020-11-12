@@ -1,0 +1,38 @@
+1	Verify if a user will be able to login with a valid username and valid password.
+2	Verify if a user cannot login with a valid username and an invalid password.
+3	Verify the login page for both, when the field is blank and Submit button is clicked.
+4	Verify the ‘Forgot Password’ functionality.
+5	Verify the messages for invalid login.
+6	Verify the ‘Remember Me’ functionality.
+7	Verify if the data in password field is either visible as asterisk or bullet signs.
+8	Verify if a user is able to login with a new password only after he/she has changed the password.
+9	Verify if the login page allows to log in simultaneously with different credentials in a different browser.
+10	Verify if the ‘Enter’ key of the keyboard is working correctly on the login page.
+Other Test Cases
+11	Verify the time taken to log in with a valid username and password.	Performance & Positive Testing
+12	Verify if the font, text color, and color coding of the Login page is as per the standard.	UI Testing & Positive Testing
+13	Verify if there is a ‘Cancel’ button available to erase the entered text.	Usability Testing
+14	Verify the login page and all its controls in different browsers	Browser Compatibility & Positive Testing.
+
+
+1) Login to the system with valid user credentials
+Given: There is a valid (type of user?) user for the SFDA application
+When: User logs in with the credentials
+Then: Application lets the user go to the home page after validation
+
+2) Login to the system with invalid user credentials
+Given: User does not have a valid login credentials
+When: User logs in with the credentials
+Then: Application throws error message - 'Please validate given credentails.' on the same login page.
+
+3) Login to the system with blank or invalid charactors
+Given: User trying to login with blank or invalid characters in the login fields
+When: User logs in with the credentials
+Then: Application throws error message - 'Please enter valid characters for the login fields' on the same login page.
+
+4) User needs to reset his password
+Given: User does not remember the login credentials
+When: User clicks and submits the 'Forgot Password' link on the login page.
+Then: Application returns the message - 'Reset password details are sent to your registerd email address'
+
+5) 
