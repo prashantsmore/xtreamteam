@@ -94,39 +94,52 @@ Acceptance Criteria: THe application should meet all criteria including all busi
 '
 
 
+
+
 # PRODUCT BACKLOG (REVISED)
-### Initial Environment Setup : ESTIMATION 21
-#### Story: As a developer I need to be able to work in an new cloud environment
+Create Home Page: ESTIMATION 21
+Story: As an App User, I need to find the App through a search engine, and therefore need a home page to land on
+Acceptance Criteria: App is hosted on a web server and is serving a static webpage with basic SEO
 
-### Initial Datatabase Setup : ESTIMATION 13
-#### Story: As a developer I need a database that is connected to the environment.
+Create QR Code : ESTIMATION 34
+Story: As a Family, I need to get QR Code online to be identified for Humanitarian Relief
+Acceptance Criteria: A page is created on the site that displays a unique QR Code every time is is loaded. A database is created to store each QR code and confirm unique ones are being generated
 
-### Build Web Server : ESTIMATION 34
-#### Story: As a developer I need to be able to serve static pages via the web
+Build Registration Page : ESTIMATION 34
+Story: As an app user, I need a page to register and login
+Acceptance Criteria: A page must be created that allow the user to register. Upon registration a confirmation email is created.
 
-### Build Login and Registration Page : ESTIMATION 8
-#### Story: As a App User (Families, NPO, Donors), I need a page to register and login
+Build Login Page : ESTIMATION 21
+Story: As an app user, I need a page to login
+Acceptance Criteria: A page must be created that allow the user to login. Login should not occur if username and password are not in database.
 
-### Database Modeling and Configuration: ESTIMATION : 21
-#### Story: As a developer I need to be able to access and modify the database using the Web App
+Build View Profile Feature for Families : ESTIMATION 21
+Story: As a family, I need to be able to view my QR Code and current balance.
+Acceptance Criteria: App allows logged in users to view their account information.
 
-### Create QR Code : ESTIMATION 21
-#### Story: As a Families, I need to create a unique QR Code to allow myself to be identified 
+Build Edit Profile Feature : ESTIMATION 21
+Story: As a family, I need to be able to edit my profile (in case of contact information change)
+Acceptance Criteria: Users can edit their account information on file
 
-### Access QR Code : ESTIMATION 21
-#### Story: As a App User (Families, NPO), I need to retrieve QR Code For various roles 
+Build Donor Page with Unique Account Information : ESTIMATION 21
+Story: As a donor, I need to be able to view my account information and view past donations
+Acceptance Criteria: Donors must be able to register and increase the amount of funds the NPO has access to
 
-### Donate Money : ESTIMATION  8
-#### Story: As a Donor I need to be able to Donate Money
+Build NPO Page For Fund Distribution : ESTIMATION 21
+Story: As an NPO, I need to be able to register and login to distribute the donated funds to families
+Acceptance Criteria: NPOs must be able to register and distribute the funds
 
-### Distribute Funds : ESTIMATION 21
-#### Story: As an NPO, I should be able to distribute funds
+Build Vendor Page to Remove Funds from Family Accounts : ESTIMATION 21
+Story: As a Vendor, I need to be able to transfer money from the Fmailies Accounts to my own when I provide them goods
+Acceptance Criteria: Vendors can registarer and remove funds from a family's account according to the number on their QR Code
 
-### Contact Page : ESTIMATION 5
-#### Story: As a App User (Families, NPO, Donors), I need to be able to contact someone with questions 
+Build Contact and Support Page : ESTIMATION 13
+Story: As a App User (Families, NPO, Donors), I need to be able to contact someone with any questions about the app
+Acceptance Criteria: Page is created with contact form that emails contents of form to dedicated email addresss.
 
-### Web Security : ESTIMATION 13
-#### Story: As a Developer, I need to be sure my Application is secure
+Web Security : ESTIMATION 34
+Story: As an App User, I need to know that my personal and financial data is secure
+Acceptance Criteria: app is password protected with authorization with https and passes basic security audit.
 
 
 
@@ -138,40 +151,66 @@ Rational: While 75 points seems like a lot, we want to be sure to build a good f
 ## Sprint Backlog
 The Development Team (alone) chose this Spring Backlog after we refined some the items during Product Backlog Refinment.
 
-### 1 Initial Environment Setup : ESTIMATION 21
-#### Story: As a developer I need to be able to work in an new cloud environment
+Create Home Page: ESTIMATION 21
+Story: As an App User, I need to find the App through a search engine, and therefore need a home page to land on
+Acceptance Criteria: App is hosted on a web server and is serving a static webpage with basic SEO
 
-### 2 Initial Datatabase Setup : ESTIMATION 13
-#### Story: As a developer I need a database that is connected to the environment.
+Create QR Code : ESTIMATION 34
+Story: As a Family, I need to get QR Code online to be identified for Humanitarian Relief
+Acceptance Criteria: A page is created on the site that displays a unique QR Code every time is is loaded. A database is created to store each QR code and confirm unique ones are being generated
 
-### 3 Build Web Server : ESTIMATION 34
-#### Story: As a developer I need to be able to serve static pages via the web
-
-### Build Login and Registration Page : ESTIMATION 8
-#### Story: As a App User (Families, NPO, Donors), I need a page to register and login
+Build Registration Page : ESTIMATION 34
+Story: As an app user, I need a page to register and login
+Acceptance Criteria: A page must be created that allow the user to register. Upon registration a confirmation email is created.
 
 ## Tasks
-Manav/Alex Wednesday 6pm
 PBI #1 Set up AWS Instance w/ security settings
 PBI #1 Register SSH Key with Juan's GitHub
 PBI #1 Confirm instance has Access and can pull from the repo
+PBI #1 Create a Spring Boot App with buil-in server
+PBI #1 Allow App to serve static files
+PBI #1 Build and run tests for confirm everything is working
+PBI #1 Delpoy app to server via gitHub
+PBI #1 Build HTML Page with Basic SEO
 
-Anup/Prashant Wednesday 6pm
-PBI #2 Create Database or file to store information
-PBI #2 Allow app to store user names and other info
+PBI #2 Create Database or file to store QR Code
+PBI #2 Build HTML Page with Bootstrap 
+PBI #2 Page displays a QR Code using an API
+PBI #2 Build and run tests for confirm everything is working
 
-PBI #3 Create a Spring Boot App with buil-in server
-PBI #3 Allow App to serve static files
+PBI #3 Build HTML with Bootstrap and a form that receives information
+PBI #3 Allow Users to create an user entry in the database/file
 PBI #3 Build and run tests for confirm everything is working
-PBI #3 Delpoy app to server via gitHub
-
-Juan/Prashant/Anup/Manav/Alex Friday 6pm EST
-PBI #4 Build HTML with Bootstrap and a form that receives information
-PBI #4 Allow Users to create an user entry in the database/file
-PBI #4 Allow Users to Login according to the database/file
-PBI #4 Build and run tests for confirm everything is working
 
 Sprint Review - Sunday 6PM 
+
+
+
+
+# 11/11 Daily Scrum
+At 6pm our Development had the Daily Scrum
+
+## Past 24 Hours
+In the past 24 Hours we all spent time researching different web development approaches that we may want to use:
+Alex G - had built a Vue app
+Manav had found a Template that uses Spring with Vue
+Juan - Created an Angular Project and explored how Spring Works
+Anup - Started to work with Spring Board and React JS
+
+## Impediments
+Impediment: We have not all agreed on a technology to use
+Solution: We will continue to discuss and will build as necessary. We will also see what technology works best as we go.
+
+Impediment: Our Product Backlog Items need to be redone
+Solution: We will refine our product Backlog before the end of the meeting today.
+
+Impediment: We do not have an updated burndown chart
+Solution: Prashant will add the new product backlog items to the chart once we complete the Product Backlog Revision
+
+## Next 24 Hours
+Mob Programming Session to deploy trivial app on Development Environment
+Continue building test cases
+Continue researching front-end options (Vue, React, Angular)
 
 
 
