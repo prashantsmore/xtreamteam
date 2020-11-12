@@ -212,6 +212,7 @@ Mob Programming Session to deploy trivial app on Development Environment
 Continue building test cases
 Continue researching front-end options (Vue, React, Angular)
 
-
+## Application
+Server: http://ec2-54-193-9-226.us-west-1.compute.amazonaws.com:8080/
 
 
