@@ -147,9 +147,9 @@ The Kanban Board contains the tasks we planned to accomplish this sprint. [Kanba
  
 ## Mob Programming
 We accomplished much of the first task using Mob Programming. We were able to maximize our productivity by pooling our strengths. Photos of our Mob Programming Session are included in the folder Sprint 1 Pictures.
-![Mob Programming 1](images/Mob-Programming-1.png)
-![Mob Programming 2](images/Mob-Programming-2.png)
-![Mob Programming 3](images/Mob-Programming-3.png)
+![Mob Programming 1](images/Mob-Programming-1.png)<br>
+![Mob Programming 2](images/Mob-Programming-2.png)<br>
+![Mob Programming 3](images/Mob-Programming-3.png)<br>
 ![Mob Programming 4](images/Mob-Programming-4.png)
 
 ## Test First
