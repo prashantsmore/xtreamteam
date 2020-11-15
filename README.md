@@ -150,7 +150,7 @@ We accomplished much of the first task using Mob Programming. We were able to ma
 
 ## Test First
 We built our Application Test First. This is evidenced by ten functional test cases that all pass. The tests can be found at https://github.com/jcvalladares/xtreamteam/blob/main/sfda/src/test/java/com/sfda/users/UsersApplicationTests.java.
-![Test Cases Report](images/test-cases=sprint1.png)
+![Test Cases Report](images/test-cases-sprint1.png)
 
 ## Sprint 1 Backlog
 The Development Team (alone) chose this Spring Backlog after we refined some the items during Product Backlog Refinment.    
