@@ -30,6 +30,11 @@ class UsersApplicationTests {
 	}
 
 	@Test
+    public void junitWorksProperly(){
+        assert true;
+    }
+	
+	@Test
 	public void testSuccessfulUserSaveFromAdminScreenScenario() {
 		Users user1 = new Users();
 		user1.setId(777);
@@ -113,7 +118,7 @@ class UsersApplicationTests {
 	}
 	
 	@Test
-	public void testResetPasswordLinkScenario() {
+	public void testResetPasswordLinkSuccessfulScenario() {
 		Users user = new Users();
 		user.setEmail("test2@test.com");
 		ResponseEntity<?> response = loginController.resetPassword(user);
