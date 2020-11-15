@@ -93,15 +93,15 @@ Acceptance Criteria: A page is created on the site that displays a unique QR Cod
 
 Build Registration Page : ESTIMATION 34
 Story: As an app user, I need a page to register and login
-Acceptance Criteria: A page must be created that allow the user to register. Upon registration a confirmation email is created.
+Acceptance Criteria: A page must be created that allow the user to register. Upon registration a confirmation email is created. Page layout follows home page design.  
 
 Build Login Page : ESTIMATION 21
 Story: As an app user, I need a page to login
-Acceptance Criteria: A page must be created that allow the user to login. Login should not occur if username and password are not in database.
+Acceptance Criteria: A page must be created that allow the user to login. Login should not occur if username and password are not in database. Page layout follows home page design.  
 
 Build View Profile Feature for Families : ESTIMATION 21
 Story: As a family, I need to be able to view my QR Code and current balance.
-Acceptance Criteria: App allows logged in users to view their account information.
+Acceptance Criteria: App allows logged in users to view their account information. Page layout follows home page design.  
 
 Build Edit Profile Feature : ESTIMATION 21
 Story: As a family, I need to be able to edit my profile (in case of contact information change)
@@ -112,7 +112,7 @@ Story: As a donor, I need to be able to view my account information and view pas
 Acceptance Criteria: Donors must be able to register and increase the amount of funds the NPO has access to
 
 Build NPO Page For Fund Distribution : ESTIMATION 21
-Story: As an NPO, I need to be able to register and login to distribute the donated funds to families
+Story: As an NPO, I need to be able to register and login to distribute the donated funds to families. Page layout follows home page design.
 Acceptance Criteria: NPOs must be able to register and distribute the funds
 
 Build Vendor Page to Remove Funds from Family Accounts : ESTIMATION 21
@@ -121,7 +121,7 @@ Acceptance Criteria: Vendors can registarer and remove funds from a family's acc
 
 Build Contact and Support Page : ESTIMATION 13
 Story: As a App User (Families, NPO, Donors), I need to be able to contact someone with any questions about the app
-Acceptance Criteria: Page is created with contact form that emails contents of form to dedicated email addresss.
+Acceptance Criteria: Page is created with contact form that emails contents of form to dedicated email addresss. Page layout follows home page design.  
 
 Web Security : ESTIMATION 34
 Story: As an App User, I need to know that my personal and financial data is secure
@@ -135,7 +135,7 @@ For our first Sprint we forecast being able to complete 75 Story Points.
 Rational: While 75 points seems like a lot, we want to be sure to build a good foundation to build upon for the rest of the application. We are hopeful we will be able to complete everything especially considering Veterans Day is Wednesday and we may have a bit more time than normal.   
 
 ## Working Application
-Our Product Increment is working software and can be found at: http://ec2-54-183-160-185.us-west-1.compute.amazonaws.com:4200/. 
+Our Product Increment is working software and can be found at: http://54.219.4.96:4200/
 
 ## Burndown Chart
 The burndown chart is located in Jira [burndown chart](https://xtremeteam3.atlassian.net/secure/RapidBoard.jspa?rapidView=1&projectKey=SFDA&view=reporting&chart=burndownChart&sprint=1&estimate=issueCount_). 
@@ -186,9 +186,27 @@ PBI #3 Build HTML with Bootstrap and a form that receives information.
 PBI #3 Allow Users to create an user entry in the database/file. 
 PBI #3 Build and run tests for confirm everything is working. 
   
-
-# Sprint 1 Daily Scrums. 
   
+ # Sprint Review
+ After the Sprint was completed, we conducted the Sprint Review. We discussed what we accomplished, our strengths, weaknesses, and what we want to acheive moving forward (notes are below).
+ 
+ During our Sprint Review, Juan's friend Johana Salgado, (picture below) who is representing a donor, attended our session. She liked the work we had done during the sprint and commented on the layout and design of the home page. 
+ 
+What did we accomplish? We completed the homepage and set the groundwork for the future product backlog items. We have the infrastructure in place and will be able to effectivly move forward.  
+
+Strengths: We all have technical skills required for the Sprint. Our knowledge and experience complement eachother. We are all commited to the project and made the time to do the work.
+
+Room For Improvment: Deeper knowledge of the technology. We could improve our communications. Better implementation of JIRA. Improve our knowledge of Agile. 
+ 
+Goals Moving Forward: Have every team member engage with JIRA. We will send a Google Invite for every future meeting. We will use one zoom room instead of a new one every time. We will complete all of the items on our Sprint Backlog. We will continue to research the technologies.
+
+Product Backlog Refinement: During our Sprint Reveiw, we received positive feedback from our stakeholder. She indicated that the design and layout was clear and understandable. As a result, we refined our product backlog by indicating, in the acceptance criteria of each new page, that it was neccessary to follow the Home Page's existing layout. 
+
+
+
+
+# Daily Scrums
+
 ## 11/11 Daily Scrum. 
 At 6pm our Development had the Daily Scrum. 
 
@@ -233,6 +251,7 @@ We did not forsee any impediments moving forward
 
 ### Next 24 Hours
 As a team, we are planning to Mob Program and also prepare for the Sprint Retrospective.
+
 
 
 
