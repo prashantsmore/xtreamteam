@@ -19,22 +19,22 @@ The product is an open source using MIT licensed and it is called Supply Line Fo
 ### Near Vision Create an app that will build a basic framework for the far vision
 Create web app that connect donors, non-profit orgs, vendors and families in need using QRCode technology.
 
-### Stake Holders:
+### Stakeholders:
   
-  - **Non-Profit**: This stakeholder is any organization who wants to help to distribute food in underdeveloped countries. The organization will raise funds in developed countries and coordinate non-profits in each Country to coordinate food distribution in the communities and use this application to orchestrate the process safely and transparently.
+  - **Non-Profit User**: This stakeholder is a member of a non-profit organization and it will use the app to orchestate the distribution of food in underdeveloped countries. 
 
-  - **Family in need**: This stakeholder receives the benefits of this process. the Local non-profit will coordinate the food's distribuition and locate those families 
-  that require support. 
-  - **Donors**: This takeholder provide the funds to finance the process.  
-  - **Vendor**: Local vendors give the groceries to the families in exchange of the funds received from the non-profit organization.  
+  - **Mother of Family in need**: This stakeholder use the app to create an identify in the system. The Local non-profit will coordinate the food's distribuition and locate those families that require support using the app.
+  
+  - **Man - Donors**: This stakeholder provide the funds to finance the process. He will use the app to donate money to the non-profit organization using creditcards or transfer money or any possible mean.  
+  - **Groceries' Vendor**: Local vendors will give the groceries to the families in exchange of the funds received from the non-profit organization.  
 
   ### Real Person: 
   
-Alejandra, is a mother of two, 31 years old who lives in Tegucigalpa, the capital city of Honduras. She works as office cleaner. Her husband work in construction. During the pandemic, both lost their jobs and have had difficulties to feed their family. Honduras, an underdeveloped country doesn’t have the resources to feed the whole country. This has been in lockdown since March and citizens can only leave their home once every 10 days. Some essential workers can go out, but they can’t because offices are closed, and construction work has been stopped. She has been struggling to feed her family and provide the basic needs. Food is one of the major issues due to the lack of job, money and they have to rely on some government assistance,  when it is possible, or non-profit such as churches or organizations that distribute food from time to time. Sometimes, they have to violate the lockdown to go out and look for groceries, or try to gain some money with temp jobs.
+Alejandra is a real person, is a mother of two, 31 years old who lives in Tegucigalpa, the capital city of Honduras. She works as office cleaner. Her husband work in construction. During the pandemic, both lost their jobs and have had difficulties to feed their family. Honduras, an underdeveloped country doesn’t have the resources to feed the whole country. This has been in lockdown since March and citizens can only leave their home once every 10 days. Some essential workers can go out, but they can’t because offices are closed, and construction work has been stopped. She has been struggling to feed her family and provide the basic needs. Food is one of the major issues due to the lack of job, money and they have to rely on some government assistance,  when it is possible, or non-profit such as churches or organizations that distribute food from time to time. Sometimes, they have to violate the lockdown to go out and look for groceries, or try to gain some money with temp jobs.
 
 ### Real Stakeholder
 
-The beneficiary is a stakeholder that will be using the app but, at the same time, receiving the resources donated by donors.  It will sign up to request financial support, and the Non-Profit organization will give the funds when this person passes a vetting process. This process is essential because they will receive groceries with a monetary value, and it is necessary to make sure that this stakeholder requires financial assistance. 
+The family in need is a stakeholder that will be using the app but, at the same time, receiving the resources donated by donors.  It will sign up to request financial support, and the Non-Profit organization will give the funds when this person passes a vetting process. This process is essential because they will receive groceries with a monetary value, and it is necessary to make sure that this stakeholder requires financial assistance. 
 
 The beneficiary will have an ID in the system, and this ID is used to identify the individual and make sure that the same person requesting help is the same person who will receive the goods at the store.
  
