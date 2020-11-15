@@ -21,11 +21,17 @@ public class UsersService {
         return usersRepository.findAll();
     }
     
-    public Optional<Users> findUserById(Long id) {
-        return usersRepository.findById(Long.valueOf(id).intValue());
+    public Optional<Users> findUserById(int id) {
+        return usersRepository.findById(id);
     }
     
     public Users saveUser(Users users) {
     	return usersRepository.save(users);
+    }
+    
+    public Users resetPassword(Users users) {
+    	List<Users> userList = usersRepository.findAll();
+    	//TODO - scan all users and check if user exists
+    	return userList.get(0);
     }
 }

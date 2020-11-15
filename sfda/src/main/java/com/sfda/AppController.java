@@ -13,6 +13,7 @@ public class AppController {
 	
 	@RequestMapping({"/"})
 	public String loadUI() {
+		log.info("loadUI");
 		return "forward:/index.html";
 	}
 
