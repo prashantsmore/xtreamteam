@@ -14,18 +14,7 @@
 The product is an open source using MIT licensed and it is called Supply Line Food.
 
 ### Far Vision<br>
-Create an app that will leverage Blockchain and QR-Code Technology to enable NonProfits Vendors and Donors to securely distribute of food during the pandemic. 
-The idea of a system to distribute food or goods to people in poor countries was originated by the current Covid-19 pandemic. Millions of people are in desperate need of basic things like food, medicine, money, etc. Time is running out and there is a need to find ways to distribute goods faster, with the lowest overhead and as efficient as possible.   
-
-Governments have the responsibility to help their population during periods of crisis. One of the major problems is the lack of food in urban and remote locations.  Their solution is to create gigantic programs to buy large amounts of food and distribute them all over the country. Timing is one of the biggest problems, the logistics required demands the participation of thousands of soldiers, government employees and public institutions trying to deliver the food as fast as they can. However, Governments are not the most efficient organization to carry out this type of endeavor and usually, these tasks are tainted with the perception of corruption or involve acts of corruption. 
-
-Usually, international organizations, donors, and people interested in collaborating in this type of effort are reluctant to donate resources to Governments due to the lack of transparency or the risks the funds are diluted in non-essential activities or the money doesn’t reach the intended people.
-
-To accomplish the goal of delivering food/goods to under-resourced people, we are proposing a solution based on blockchain, mobile apps, and organizations with a reputation that guarantees the people will receive the donations with the lowest overhead, and fastest and most efficient delivery. 
-
-The solution addresses the biggest problem: Massive delivery of food/goods creates a huge bottleneck to reach the people on time.  The second problem is that the food delivered solves the immediate need but may have long term negative health consequences. Also, this solution will help to feed people in need but also will keep the local business open and jobs. 
-
-We believe that the solution requires bringing the access directly to the local families without any intermediary so they can buy the food they need. They have lost the source of income and therefore they can’t buy the right food according to their diet. We cannot give money because a big portion of the population will use the money for other purposes.  The best way to solve this problem would be to create a mechanism that guarantees they can get access to food, but can only be used for the intended purpose. We propose the creation of certificates for this purpose
+ Build a software, marketing and business infrastructure to distribute food in underdeveloped countries.
 
 ### Near Vision Create an app that will build a basic framework for the far vision
     - Allow beneficiaries to sign up and receive an ID in the system and use QR Code technology to identify themselves in the system.
