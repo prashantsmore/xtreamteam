@@ -171,7 +171,7 @@ PBI #3 Build and run tests for confirm everything is working
 
 Sprint Review - Sunday 6PM 
 
-##Burndown Chart
+## Burndown Chart
 The burndown chart is located in Jira [burndown chart](https://xtremeteam3.atlassian.net/secure/RapidBoard.jspa?rapidView=1&projectKey=SFDA&view=reporting&chart=burndownChart&sprint=1&estimate=issueCount_)
 
 
