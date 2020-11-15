@@ -8,7 +8,6 @@
 - **Juan Valladares**: Developer
 - **Anup Shetye**: Developer
 - **Manav Agarwal**: Developer
-- **Davie Wilkie**: Developer
 
 ### Product Name: 
 The product is an open source using MIT licensed and it is called Supply Line Food.
@@ -129,78 +128,110 @@ Story: As an App User, I need to know that my personal and financial data is sec
 Acceptance Criteria: app is password protected with authorization with https and passes basic security audit.
 
 
+# Sprint 1
 
-# Sprint Planning
+## Sprint Planning and Sprint Goal
+For our first Sprint we forecast being able to complete 75 Story Points.  
+Rational: While 75 points seems like a lot, we want to be sure to build a good foundation to build upon for the rest of the application. We are hopeful we will be able to complete everything especially considering Veterans Day is Wednesday and we may have a bit more time than normal.   
 
-For our first Spring we forecast being able to complete 75 Story Points.
-Rational: While 75 points seems like a lot, we want to be sure to build a good foundation to build upon for the rest of the application. We are hopeful we will be able to complete everything especially considering Veterans Day is Wednesday and we may have a bit more time than normal. 
-
-## Sprint Backlog
-The Development Team (alone) chose this Spring Backlog after we refined some the items during Product Backlog Refinment.
-
-Create Home Page: ESTIMATION 21
-Story: As an App User, I need to find the App through a search engine, and therefore need a home page to land on
-Acceptance Criteria: App is hosted on a web server and is serving a static webpage with basic SEO
-
-Create QR Code : ESTIMATION 34
-Story: As a Family, I need to get QR Code online to be identified for Humanitarian Relief
-Acceptance Criteria: A page is created on the site that displays a unique QR Code every time is is loaded. A database is created to store each QR code and confirm unique ones are being generated
-
-Build Registration Page : ESTIMATION 34
-Story: As an app user, I need a page to register and login
-Acceptance Criteria: A page must be created that allow the user to register. Upon registration a confirmation email is created.
-
-## Tasks
-PBI #1 Set up AWS Instance w/ security settings
-PBI #1 Register SSH Key with Juan's GitHub
-PBI #1 Confirm instance has Access and can pull from the repo
-PBI #1 Create a Spring Boot App with buil-in server
-PBI #1 Allow App to serve static files
-PBI #1 Build and run tests for confirm everything is working
-PBI #1 Delpoy app to server via gitHub
-PBI #1 Build HTML Page with Basic SEO
-
-PBI #2 Create Database or file to store QR Code
-PBI #2 Build HTML Page with Bootstrap 
-PBI #2 Page displays a QR Code using an API
-PBI #2 Build and run tests for confirm everything is working
-
-PBI #3 Build HTML with Bootstrap and a form that receives information
-PBI #3 Allow Users to create an user entry in the database/file
-PBI #3 Build and run tests for confirm everything is working
-
-Sprint Review - Sunday 6PM 
+## Working Application
+Our Product Increment is working software and can be found at: http://ec2-54-193-9-226.us-west-1.compute.amazonaws.com:8080/. 
 
 ## Burndown Chart
-The burndown chart is located in Jira [burndown chart](https://xtremeteam3.atlassian.net/secure/RapidBoard.jspa?rapidView=1&projectKey=SFDA&view=reporting&chart=burndownChart&sprint=1&estimate=issueCount_)
+The burndown chart is located in Jira [burndown chart](https://xtremeteam3.atlassian.net/secure/RapidBoard.jspa?rapidView=1&projectKey=SFDA&view=reporting&chart=burndownChart&sprint=1&estimate=issueCount_). 
+
+We did update our Sprint Task Board and Burndown Chart. However, becasue we modified our Product Backlog, there was a delay and all of our updates are logged as being started on 11/15.  
+
+## Kanban Board
+The Kanban Board contains the tasks we planned to accomplish this sprint. [Kanban Board Sprint 1](https://xtremeteam3.atlassian.net/secure/RapidBoard.jspa?rapidView=1&projectKey=SFDA&selectedIssue=SFDA-21). 
+ 
+## Mob Programming
+We accomplished much of the first task using Mob Programming. We were able to maximize our productivity by pooling our strengths. Photos of our Mob Programming Session are included in the folder Sprint 1 Pictures.  
+
+## Test First
+We built our Application Test First. This is evidenced by ten functional test cases that all pass. The tests can be found at https://github.com/jcvalladares/xtreamteam/blob/main/sfda/src/test/java/com/sfda/users/UsersApplicationTests.java. 
+
+## Sprint 1 Backlog
+The Development Team (alone) chose this Spring Backlog after we refined some the items during Product Backlog Refinment.    
+
+Create Home Page: ESTIMATION 21. 
+Story: As an App User, I need to find the App through a search engine, and therefore need a home page to land on. 
+Acceptance Criteria: App is hosted on a web server and is serving a static webpage with basic SEO. 
+
+Create QR Code : ESTIMATION 34. 
+Story: As a Family, I need to get QR Code online to be identified for Humanitarian Relief. 
+Acceptance Criteria: A page is created on the site that displays a unique QR Code every time is is loaded. A database is created to store each QR code and confirm unique ones are being generated. 
+
+Build Registration Page : ESTIMATION 34. 
+Story: As an app user, I need a page to register and login  
+Acceptance Criteria: A page must be created that allow the user to register. Upon registration a confirmation email is created.  
+
+## Tasks
+PBI #1 Set up AWS Instance w/ security settings. 
+PBI #1 Register SSH Key with Juan's GitHub. 
+PBI #1 Confirm instance has Access and can pull from the repo. 
+PBI #1 Create a Spring Boot App with buil-in server. 
+PBI #1 Allow App to serve static files. 
+PBI #1 Build and run tests for confirm everything is working. 
+PBI #1 Delpoy app to server via gitHub. 
+PBI #1 Build HTML Page with Basic SEO. 
+  
+PBI #2 Create Database or file to store QR Code  
+PBI #2 Build HTML Page with Bootstrap    
+PBI #2 Page displays a QR Code using an API. 
+PBI #2 Build and run tests for confirm everything is working. 
+  
+PBI #3 Build HTML with Bootstrap and a form that receives information. 
+PBI #3 Allow Users to create an user entry in the database/file. 
+PBI #3 Build and run tests for confirm everything is working. 
+  
+
+# Sprint 1 Daily Scrums. 
+  
+## 11/11 Daily Scrum. 
+At 6pm our Development had the Daily Scrum. 
+
+### Past 24 Hours. 
+In the past 24 Hours we all spent time researching different web development approaches that we may want to use:    
+
+Alex G - had built a Vue app. 
+Manav had found a Template that uses Spring with Vue. 
+Juan - Created an Angular Project and explored how Spring Works. 
+Anup - Started to work with Spring Board and React JS  
+
+### Impediments
+Impediment: We have not all agreed on a technology to use. 
+Solution: We will continue to discuss and will build as necessary. We will also see what technology works best as we go.  
+
+Impediment: Our Product Backlog Items need to be redone. 
+Solution: We will refine our product Backlog before the end of the meeting today.  
+
+Impediment: We do not have an updated burndown chart. 
+Solution: Prashant will add the new product backlog items to the chart once we complete the Product Backlog Revision. 
+
+### Next 24 Hours. 
+Mob Programming Session to deploy trivial app on Development Environment. 
+Continue building test cases. 
+Continue researching front-end options (Vue, React, Angular). 
 
 
-# 11/11 Daily Scrum
-At 6pm our Development had the Daily Scrum
 
-## Past 24 Hours
-In the past 24 Hours we all spent time researching different web development approaches that we may want to use:
-Alex G - had built a Vue app
-Manav had found a Template that uses Spring with Vue
-Juan - Created an Angular Project and explored how Spring Works
-Anup - Started to work with Spring Board and React JS
+## 11/15 Daily Scrum
+At 4pm our Development had the Daily Scrum.
 
-## Impediments
-Impediment: We have not all agreed on a technology to use
-Solution: We will continue to discuss and will build as necessary. We will also see what technology works best as we go.
+### Past 24 Hours
+Alex G - Researched QR api information. 
+Anup - Created Test Cases for the PBI's
+Manav - Worked on QR Code Generation and server deployment
+Prashant - Updated the Sprint Backlog on Jira
+Juan - Completed the HTML for the Home Page Login and Signup
 
-Impediment: Our Product Backlog Items need to be redone
-Solution: We will refine our product Backlog before the end of the meeting today.
+### Impediments
 
-Impediment: We do not have an updated burndown chart
-Solution: Prashant will add the new product backlog items to the chart once we complete the Product Backlog Revision
+We did not forsee any impediments moving forward
 
-## Next 24 Hours
-Mob Programming Session to deploy trivial app on Development Environment
-Continue building test cases
-Continue researching front-end options (Vue, React, Angular)
+### Next 24 Hours
+As a team, we are planning to Mob Program and also prepare for the Sprint Retrospective.
 
-## Application
-Server: http://ec2-54-193-9-226.us-west-1.compute.amazonaws.com:8080/
 
 
