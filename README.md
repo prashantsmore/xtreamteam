@@ -8,46 +8,32 @@
 - **Juan Valladares**: Developer
 - **Anup Shetye**: Developer
 - **Manav Agarwal**: Developer
-- **Davie Wilkie**: Developer
 
 ### Product Name: 
 The product is an open source using MIT licensed and it is called Supply Line Food.
 
 ### Far Vision<br>
-Create an app that will leverage Blockchain and QR-Code Technology to enable NonProfits Vendors and Donors to securely distribute of food during the pandemic. 
-The idea of a system to distribute food or goods to people in poor countries was originated by the current Covid-19 pandemic. Millions of people are in desperate need of basic things like food, medicine, money, etc. Time is running out and there is a need to find ways to distribute goods faster, with the lowest overhead and as efficient as possible.   
-
-Governments have the responsibility to help their population during periods of crisis. One of the major problems is the lack of food in urban and remote locations.  Their solution is to create gigantic programs to buy large amounts of food and distribute them all over the country. Timing is one of the biggest problems, the logistics required demands the participation of thousands of soldiers, government employees and public institutions trying to deliver the food as fast as they can. However, Governments are not the most efficient organization to carry out this type of endeavor and usually, these tasks are tainted with the perception of corruption or involve acts of corruption. 
-
-Usually, international organizations, donors, and people interested in collaborating in this type of effort are reluctant to donate resources to Governments due to the lack of transparency or the risks the funds are diluted in non-essential activities or the money doesn’t reach the intended people.
-
-To accomplish the goal of delivering food/goods to under-resourced people, we are proposing a solution based on blockchain, mobile apps, and organizations with a reputation that guarantees the people will receive the donations with the lowest overhead, and fastest and most efficient delivery. 
-
-The solution addresses the biggest problem: Massive delivery of food/goods creates a huge bottleneck to reach the people on time.  The second problem is that the food delivered solves the immediate need but may have long term negative health consequences. Also, this solution will help to feed people in need but also will keep the local business open and jobs. 
-
-We believe that the solution requires bringing the access directly to the local families without any intermediary so they can buy the food they need. They have lost the source of income and therefore they can’t buy the right food according to their diet. We cannot give money because a big portion of the population will use the money for other purposes.  The best way to solve this problem would be to create a mechanism that guarantees they can get access to food, but can only be used for the intended purpose. We propose the creation of certificates for this purpose
+ Build a solution to distribute food in underdeveloped countries.
 
 ### Near Vision Create an app that will build a basic framework for the far vision
-    - Allow beneficiaries to sign up and receive an ID in the system and use QR Code technology to identify themselves in the system.
-    - Allow donors to donate money to the organization. 
-    - Allow the Non-Profit organization to assign the money to each beneficiary.
+Create web app that connect donors, non-profit orgs, vendors and families in need using QRCode technology.
 
-### Stake Holders:
+### Stakeholders:
   
-  - **Non-Profit**: This stakeholder is any organization who wants to help to distribute food in underdeveloped countries. The organization will raise funds in developed countries and coordinate non-profits in each Country to coordinate food distribution in the communities and use this application to orchestrate the process safely and transparently.
+  - **Non-Profit User**: This stakeholder is a member of a non-profit organization and it will use the app to orchestate the distribution of food in underdeveloped countries. 
 
-  - **Family in need**: This stakeholder receives the benefits of this process. the Local non-profit will coordinate the food's distribuition and locate those families 
-  that require support. 
-  - **Donors**: This takeholder provide the funds to finance the process.  
-  - **Vendor**: Local vendors give the groceries to the families in exchange of the funds received from the non-profit organization.  
+  - **Mother of Family in need**: This stakeholder use the app to create an identify in the system. The Local non-profit will coordinate the food's distribuition and locate those families that require support using the app.
+  
+  - **Man - Donors**: This stakeholder provide the funds to finance the process. He will use the app to donate money to the non-profit organization using creditcards or transfer money or any possible mean.  
+  - **Groceries' Vendor**: Local vendors will give the groceries to the families in exchange of the funds received from the non-profit organization.  
 
   ### Real Person: 
   
-Alejandra, is a mother of two, 31 years old who lives in Tegucigalpa, the capital city of Honduras. She works as office cleaner. Her husband work in construction. During the pandemic, both lost their jobs and have had difficulties to feed their family. Honduras, an underdeveloped country doesn’t have the resources to feed the whole country. This has been in lockdown since March and citizens can only leave their home once every 10 days. Some essential workers can go out, but they can’t because offices are closed, and construction work has been stopped. She has been struggling to feed her family and provide the basic needs. Food is one of the major issues due to the lack of job, money and they have to rely on some government assistance,  when it is possible, or non-profit such as churches or organizations that distribute food from time to time. Sometimes, they have to violate the lockdown to go out and look for groceries, or try to gain some money with temp jobs.
+Alejandra is a real person, is a mother of two, 31 years old who lives in Tegucigalpa, the capital city of Honduras. She works as office cleaner. Her husband work in construction. During the pandemic, both lost their jobs and have had difficulties to feed their family. Honduras, an underdeveloped country doesn’t have the resources to feed the whole country. This has been in lockdown since March and citizens can only leave their home once every 10 days. Some essential workers can go out, but they can’t because offices are closed, and construction work has been stopped. She has been struggling to feed her family and provide the basic needs. Food is one of the major issues due to the lack of job, money and they have to rely on some government assistance,  when it is possible, or non-profit such as churches or organizations that distribute food from time to time. Sometimes, they have to violate the lockdown to go out and look for groceries, or try to gain some money with temp jobs.
 
 ### Real Stakeholder
 
-The beneficiary is a stakeholder that will be using the app but, at the same time, receiving the resources donated by donors.  It will sign up to request financial support, and the Non-Profit organization will give the funds when this person passes a vetting process. This process is essential because they will receive groceries with a monetary value, and it is necessary to make sure that this stakeholder requires financial assistance. 
+The family in need is a stakeholder that will be using the app but, at the same time, receiving the resources donated by donors.  It will sign up to request financial support, and the Non-Profit organization will give the funds when this person passes a vetting process. This process is essential because they will receive groceries with a monetary value, and it is necessary to make sure that this stakeholder requires financial assistance. 
 
 The beneficiary will have an ID in the system, and this ID is used to identify the individual and make sure that the same person requesting help is the same person who will receive the goods at the store.
  
@@ -94,85 +80,158 @@ Acceptance Criteria: THe application should meet all criteria including all busi
 '
 
 
+
+
 # PRODUCT BACKLOG (REVISED)
-### Initial Environment Setup : ESTIMATION 21
-#### Story: As a developer I need to be able to work in an new cloud environment
+Create Home Page: ESTIMATION 21
+Story: As an App User, I need to find the App through a search engine, and therefore need a home page to land on
+Acceptance Criteria: App is hosted on a web server and is serving a static webpage with basic SEO
 
-### Initial Datatabase Setup : ESTIMATION 13
-#### Story: As a developer I need a database that is connected to the environment.
+Create QR Code : ESTIMATION 34
+Story: As a Family, I need to get QR Code online to be identified for Humanitarian Relief
+Acceptance Criteria: A page is created on the site that displays a unique QR Code every time is is loaded. A database is created to store each QR code and confirm unique ones are being generated
 
-### Build Web Server : ESTIMATION 34
-#### Story: As a developer I need to be able to serve static pages via the web
+Build Registration Page : ESTIMATION 34
+Story: As an app user, I need a page to register and login
+Acceptance Criteria: A page must be created that allow the user to register. Upon registration a confirmation email is created.
 
-### Build Login and Registration Page : ESTIMATION 8
-#### Story: As a App User (Families, NPO, Donors), I need a page to register and login
+Build Login Page : ESTIMATION 21
+Story: As an app user, I need a page to login
+Acceptance Criteria: A page must be created that allow the user to login. Login should not occur if username and password are not in database.
 
-### Database Modeling and Configuration: ESTIMATION : 21
-#### Story: As a developer I need to be able to access and modify the database using the Web App
+Build View Profile Feature for Families : ESTIMATION 21
+Story: As a family, I need to be able to view my QR Code and current balance.
+Acceptance Criteria: App allows logged in users to view their account information.
 
-### Create QR Code : ESTIMATION 21
-#### Story: As a Families, I need to create a unique QR Code to allow myself to be identified 
+Build Edit Profile Feature : ESTIMATION 21
+Story: As a family, I need to be able to edit my profile (in case of contact information change)
+Acceptance Criteria: Users can edit their account information on file
 
-### Access QR Code : ESTIMATION 21
-#### Story: As a App User (Families, NPO), I need to retrieve QR Code For various roles 
+Build Donor Page with Unique Account Information : ESTIMATION 21
+Story: As a donor, I need to be able to view my account information and view past donations
+Acceptance Criteria: Donors must be able to register and increase the amount of funds the NPO has access to
 
-### Donate Money : ESTIMATION  8
-#### Story: As a Donor I need to be able to Donate Money
+Build NPO Page For Fund Distribution : ESTIMATION 21
+Story: As an NPO, I need to be able to register and login to distribute the donated funds to families
+Acceptance Criteria: NPOs must be able to register and distribute the funds
 
-### Distribute Funds : ESTIMATION 21
-#### Story: As an NPO, I should be able to distribute funds
+Build Vendor Page to Remove Funds from Family Accounts : ESTIMATION 21
+Story: As a Vendor, I need to be able to transfer money from the Fmailies Accounts to my own when I provide them goods
+Acceptance Criteria: Vendors can registarer and remove funds from a family's account according to the number on their QR Code
 
-### Contact Page : ESTIMATION 5
-#### Story: As a App User (Families, NPO, Donors), I need to be able to contact someone with questions 
+Build Contact and Support Page : ESTIMATION 13
+Story: As a App User (Families, NPO, Donors), I need to be able to contact someone with any questions about the app
+Acceptance Criteria: Page is created with contact form that emails contents of form to dedicated email addresss.
 
-### Web Security : ESTIMATION 13
-#### Story: As a Developer, I need to be sure my Application is secure
+Web Security : ESTIMATION 34
+Story: As an App User, I need to know that my personal and financial data is secure
+Acceptance Criteria: app is password protected with authorization with https and passes basic security audit.
 
 
+# Sprint 1
 
-# Sprint Planning
+## Sprint Planning and Sprint Goal
+For our first Sprint we forecast being able to complete 75 Story Points.  
+Rational: While 75 points seems like a lot, we want to be sure to build a good foundation to build upon for the rest of the application. We are hopeful we will be able to complete everything especially considering Veterans Day is Wednesday and we may have a bit more time than normal.   
 
-For our first Spring we forecast being able to complete 75 Story Points.
-Rational: While 75 points seems like a lot, we want to be sure to build a good foundation to build upon for the rest of the application. We are hopeful we will be able to complete everything especially considering Veterans Day is Wednesday and we may have a bit more time than normal. 
+## Working Application
+Our Product Increment is working software and can be found at: http://ec2-54-193-9-226.us-west-1.compute.amazonaws.com:8080/. 
 
-## Sprint Backlog
-The Development Team (alone) chose this Spring Backlog after we refined some the items during Product Backlog Refinment.
+## Burndown Chart
+The burndown chart is located in Jira [burndown chart](https://xtremeteam3.atlassian.net/secure/RapidBoard.jspa?rapidView=1&projectKey=SFDA&view=reporting&chart=burndownChart&sprint=1&estimate=issueCount_). 
 
-### 1 Initial Environment Setup : ESTIMATION 21
-#### Story: As a developer I need to be able to work in an new cloud environment
+We did update our Sprint Task Board and Burndown Chart. However, becasue we modified our Product Backlog, there was a delay and all of our updates are logged as being started on 11/15.  
 
-### 2 Initial Datatabase Setup : ESTIMATION 13
-#### Story: As a developer I need a database that is connected to the environment.
+## Kanban Board
+The Kanban Board contains the tasks we planned to accomplish this sprint. [Kanban Board Sprint 1](https://xtremeteam3.atlassian.net/secure/RapidBoard.jspa?rapidView=1&projectKey=SFDA&selectedIssue=SFDA-21). 
+ 
+## Mob Programming
+We accomplished much of the first task using Mob Programming. We were able to maximize our productivity by pooling our strengths. Photos of our Mob Programming Session are included in the folder Sprint 1 Pictures.  
 
-### 3 Build Web Server : ESTIMATION 34
-#### Story: As a developer I need to be able to serve static pages via the web
+## Test First
+We built our Application Test First. This is evidenced by ten functional test cases that all pass. The tests can be found at https://github.com/jcvalladares/xtreamteam/blob/main/sfda/src/test/java/com/sfda/users/UsersApplicationTests.java. 
 
-### Build Login and Registration Page : ESTIMATION 8
-#### Story: As a App User (Families, NPO, Donors), I need a page to register and login
+## Sprint 1 Backlog
+The Development Team (alone) chose this Spring Backlog after we refined some the items during Product Backlog Refinment.    
+
+Create Home Page: ESTIMATION 21. 
+Story: As an App User, I need to find the App through a search engine, and therefore need a home page to land on. 
+Acceptance Criteria: App is hosted on a web server and is serving a static webpage with basic SEO. 
+
+Create QR Code : ESTIMATION 34. 
+Story: As a Family, I need to get QR Code online to be identified for Humanitarian Relief. 
+Acceptance Criteria: A page is created on the site that displays a unique QR Code every time is is loaded. A database is created to store each QR code and confirm unique ones are being generated. 
+
+Build Registration Page : ESTIMATION 34. 
+Story: As an app user, I need a page to register and login  
+Acceptance Criteria: A page must be created that allow the user to register. Upon registration a confirmation email is created.  
 
 ## Tasks
-Manav/Alex Wednesday 6pm
-PBI #1 Set up AWS Instance w/ security settings
-PBI #1 Register SSH Key with Juan's GitHub
-PBI #1 Confirm instance has Access and can pull from the repo
+PBI #1 Set up AWS Instance w/ security settings. 
+PBI #1 Register SSH Key with Juan's GitHub. 
+PBI #1 Confirm instance has Access and can pull from the repo. 
+PBI #1 Create a Spring Boot App with buil-in server. 
+PBI #1 Allow App to serve static files. 
+PBI #1 Build and run tests for confirm everything is working. 
+PBI #1 Delpoy app to server via gitHub. 
+PBI #1 Build HTML Page with Basic SEO. 
+  
+PBI #2 Create Database or file to store QR Code  
+PBI #2 Build HTML Page with Bootstrap    
+PBI #2 Page displays a QR Code using an API. 
+PBI #2 Build and run tests for confirm everything is working. 
+  
+PBI #3 Build HTML with Bootstrap and a form that receives information. 
+PBI #3 Allow Users to create an user entry in the database/file. 
+PBI #3 Build and run tests for confirm everything is working. 
+  
 
-Anup/Prashant Wednesday 6pm
-PBI #2 Create Database or file to store information
-PBI #2 Allow app to store user names and other info
+# Sprint 1 Daily Scrums. 
+  
+## 11/11 Daily Scrum. 
+At 6pm our Development had the Daily Scrum. 
 
-PBI #3 Create a Spring Boot App with buil-in server
-PBI #3 Allow App to serve static files
-PBI #3 Build and run tests for confirm everything is working
-PBI #3 Delpoy app to server via gitHub
+### Past 24 Hours. 
+In the past 24 Hours we all spent time researching different web development approaches that we may want to use:    
 
-Juan/Prashant/Anup/Manav/Alex Friday 6pm EST
-PBI #4 Build HTML with Bootstrap and a form that receives information
-PBI #4 Allow Users to create an user entry in the database/file
-PBI #4 Allow Users to Login according to the database/file
-PBI #4 Build and run tests for confirm everything is working
+Alex G - had built a Vue app. 
+Manav had found a Template that uses Spring with Vue. 
+Juan - Created an Angular Project and explored how Spring Works. 
+Anup - Started to work with Spring Board and React JS  
 
-Sprint Review - Sunday 6PM 
+### Impediments
+Impediment: We have not all agreed on a technology to use. 
+Solution: We will continue to discuss and will build as necessary. We will also see what technology works best as we go.  
 
+Impediment: Our Product Backlog Items need to be redone. 
+Solution: We will refine our product Backlog before the end of the meeting today.  
+
+Impediment: We do not have an updated burndown chart. 
+Solution: Prashant will add the new product backlog items to the chart once we complete the Product Backlog Revision. 
+
+### Next 24 Hours. 
+Mob Programming Session to deploy trivial app on Development Environment. 
+Continue building test cases. 
+Continue researching front-end options (Vue, React, Angular). 
+
+
+
+## 11/15 Daily Scrum
+At 4pm our Development had the Daily Scrum.
+
+### Past 24 Hours
+Alex G - Researched QR api information. 
+Anup - Created Test Cases for the PBI's
+Manav - Worked on QR Code Generation and server deployment
+Prashant - Updated the Sprint Backlog on Jira
+Juan - Completed the HTML for the Home Page Login and Signup
+
+### Impediments
+
+We did not forsee any impediments moving forward
+
+### Next 24 Hours
+As a team, we are planning to Mob Program and also prepare for the Sprint Retrospective.
 
 
 
