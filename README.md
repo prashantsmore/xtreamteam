@@ -147,10 +147,10 @@ The Kanban Board contains the tasks we planned to accomplish this sprint. [Kanba
  
 ## Mob Programming
 We accomplished much of the first task using Mob Programming. We were able to maximize our productivity by pooling our strengths. Photos of our Mob Programming Session are included in the folder Sprint 1 Pictures.
-![Mob Programming 1](images/Mob-Programming-1.png)<br>
-![Mob Programming 2](images/Mob-Programming-2.png)<br>
-![Mob Programming 3](images/Mob-Programming-3.png)<br>
-![Mob Programming 4](images/Mob-Programming-4.png)
+![Mob Programming 1](images/Mob-Programming-1.png)<br/><br/><br/>
+![Mob Programming 2](images/Mob-Programming-2.png)<br/><br/><br/>
+![Mob Programming 3](images/Mob-Programming-3.png)<br/><br/><br/>
+![Mob Programming 4](images/Mob-Programming-4.png)<br/><br/><br/>
 
 ## Test First
 We built our Application Test First. This is evidenced by ten functional test cases that all pass. The tests can be found at https://github.com/jcvalladares/xtreamteam/blob/main/sfda/src/test/java/com/sfda/users/UsersApplicationTests.java.
@@ -206,8 +206,8 @@ Goals Moving Forward: Have every team member engage with JIRA. We will send a Go
 
 Product Backlog Refinement: During our Sprint Reveiw, we received positive feedback from our stakeholder. She indicated that the design and layout was clear and understandable. As a result, we refined our product backlog by indicating, in the acceptance criteria of each new page, that it was neccessary to follow the Home Page's existing layout. 
 
-
-
+![Mob Programming 4](images/Stakeholder-meet-1.png)<br/>
+![Mob Programming 4](images/Stakeholder-meet-2.png)<br/>
 
 # Daily Scrums
 
