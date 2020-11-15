@@ -146,7 +146,11 @@ We did update our Sprint Task Board and Burndown Chart. However, becasue we modi
 The Kanban Board contains the tasks we planned to accomplish this sprint. [Kanban Board Sprint 1](https://xtremeteam3.atlassian.net/secure/RapidBoard.jspa?rapidView=1&projectKey=SFDA&selectedIssue=SFDA-21). 
  
 ## Mob Programming
-We accomplished much of the first task using Mob Programming. We were able to maximize our productivity by pooling our strengths. Photos of our Mob Programming Session are included in the folder Sprint 1 Pictures.  
+We accomplished much of the first task using Mob Programming. We were able to maximize our productivity by pooling our strengths. Photos of our Mob Programming Session are included in the folder Sprint 1 Pictures.
+![Mob Programming 1](images/Mob-Programming-1.png)
+![Mob Programming 2](images/Mob-Programming-2.png)
+![Mob Programming 3](images/Mob-Programming-3.png)
+![Mob Programming 4](images/Mob-Programming-4.png)
 
 ## Test First
 We built our Application Test First. This is evidenced by ten functional test cases that all pass. The tests can be found at https://github.com/jcvalladares/xtreamteam/blob/main/sfda/src/test/java/com/sfda/users/UsersApplicationTests.java.
