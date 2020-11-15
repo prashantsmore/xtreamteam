@@ -135,7 +135,7 @@ For our first Sprint we forecast being able to complete 75 Story Points.
 Rational: While 75 points seems like a lot, we want to be sure to build a good foundation to build upon for the rest of the application. We are hopeful we will be able to complete everything especially considering Veterans Day is Wednesday and we may have a bit more time than normal.   
 
 ## Working Application
-Our Product Increment is working software and can be found at: http://ec2-54-193-9-226.us-west-1.compute.amazonaws.com:8080/. 
+Our Product Increment is working software and can be found at: http://ec2-54-183-160-185.us-west-1.compute.amazonaws.com:4200/. 
 
 ## Burndown Chart
 The burndown chart is located in Jira [burndown chart](https://xtremeteam3.atlassian.net/secure/RapidBoard.jspa?rapidView=1&projectKey=SFDA&view=reporting&chart=burndownChart&sprint=1&estimate=issueCount_). 
