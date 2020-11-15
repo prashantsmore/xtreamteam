@@ -1,8 +1,5 @@
 package com.sfda.controller;
 
-import java.util.List;
-
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -20,18 +17,30 @@ import lombok.extern.slf4j.Slf4j;
 @RequestMapping("/api/login")
 public class LoginController {
 	
-	@Autowired
 	UsersService usersService;
+	
+	public LoginController(UsersService usersService) {
+		this.usersService = usersService;
+	}
 	
 	@PostMapping(path = UserLinks.REGISTER_USER)
     public ResponseEntity<?> registerUser(@RequestBody Users user) {
-        List<Users> resource = usersService.getUsers();
+		log.info("In registerUser");
+		Users resource = usersService.saveUser(user);
         return ResponseEntity.ok(resource);
     }
 	
 	@PostMapping(path = UserLinks.LOGIN_USER)
 	public ResponseEntity<?> loginUser(@RequestBody Users user) {
-		Users resource = usersService.findUserById(123L).orElseGet(null);
-        return ResponseEntity.ok(resource);
+		log.info("In loginUser");
+        return ResponseEntity.ok("SUCCESS");//TODO
+    }
+	
+	@PostMapping(path = UserLinks.FORGET_PASSWORD)
+	public ResponseEntity<?> resetPassword(@RequestBody Users user) {
+		log.info("In resetPassword");
+		usersService.resetPassword(user);
+		//TODO - implementation - send reset password link to the given email address
+        return ResponseEntity.ok("Link Sent");
     }
 }
