@@ -14,7 +14,7 @@
 The product is an open source using MIT licensed and it is called Supply Line Food.
 
 ### Far Vision<br>
- Build a software, marketing and business infrastructure to distribute food in underdeveloped countries.
+ Build a product to distribute food in underdeveloped countries.
 
 ### Near Vision Create an app that will build a basic framework for the far vision
     - Allow beneficiaries to sign up and receive an ID in the system and use QR Code technology to identify themselves in the system.
