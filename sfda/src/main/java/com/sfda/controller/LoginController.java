@@ -31,7 +31,7 @@ public class LoginController {
     }
 	
 	@PostMapping(path = UserLinks.LOGIN_USER)
-	public ResponseEntity<?> loginUser(@RequestBody Users user) {
+	public ResponseEntity<?> loginUser(String email, String password) {
 		log.info("In loginUser");
         return ResponseEntity.ok("SUCCESS");//TODO
     }
